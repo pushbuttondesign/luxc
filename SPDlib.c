@@ -10,6 +10,8 @@
 //      - Optimise calculation speed, CCT trial and error calculation is very slow, swap to alternative equation
 //      - Stop usage of 3x global structures and pass each variable individually to each function
 //        This will avoid duplicate calculations or needing to add 'bit set' flags & checks
+//	- The blackbody() function allocates memory it does not free.
+//        Move the malloc outside the function and pass in a pointer to keep both in the same place
 //
 
 //include & define
