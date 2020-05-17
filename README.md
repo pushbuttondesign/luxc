@@ -1,15 +1,15 @@
 # luxC
 
-A C toolbox for lighting and colour science
-Many of these functions are validated against the equilavent python functions in: https://github.com/pushbuttondesign/luxpy
+#### A C toolbox for lighting and colour science
+#### Many of these functions are validated against the equilavent python functions in: https://github.com/pushbuttondesign/luxpy
 
-## Usage:
+### Usage:
 - include .h in your file and add the .c at compile time
 - fill the SPD_data structure with a list of spectral data values and corrosponding wavelength values
 - pass a pointer to the structure to the various operations you want to perform on the data
 - most operations pass back a pointer to same data structure, with additinal fields filled in
 
-## TODO
+### TODO
 - Validate all the functions, implement ceedling unit testing
 - Optimise calculation speed, current CCT trial and error calculation in colourtemp() is very slow and duplicated, swap to alternative equation, several exist
 - Stop usage of global structures and pass each variable individually to each function, this will avoid duplicate calculations or needing to add 'bit set' flags & checks
@@ -17,15 +17,15 @@ Many of these functions are validated against the equilavent python functions in
 *********************************************
 
 ## Colour space termonology used in this program
-#### Tristumulus values         #### Associated chromaticity coordinates
-- CIE 1931 (XYZ)              CIE 1931 (xyY)
-- CIE 1964 (X10Y10Z10)        CIE 1931 (x10y10Y10)
-- CIE 1976 (L*u*v*)           CIE 1976 (u’v’L*) CIE 1976 UCS Diagram
-- CIE 1976 (L*10u*10v*10)     CIE 1976 (u’10v’10L*)
-- CIE 1976 (L*a*b*)           none
-- CIE 1976 (L*10a*10b*10)     none
-- CIE 1964 (U*V*W*)           CIE 1960 (uvW*), CIE 1960 UCS Diagram (u = u', v = 2/3v', W* = L*)
-- CIE 2002 (CIECAM02)         CIE 2002 (J'a'b') CIECAM02 UCS Diagram
+#### Tristumulus values  -  Associated chromaticity coordinates
+- CIE 1931 (XYZ)  -  CIE 1931 (xyY)
+- CIE 1964 (X10Y10Z10)  -  CIE 1931 (x10y10Y10)
+- CIE 1976 (L*u*v*)  -  CIE 1976 (u’v’L*) CIE 1976 UCS Diagram
+- CIE 1976 (L*10u*10v*10) -  CIE 1976 (u’10v’10L*)
+- CIE 1976 (L*a*b*) -  none
+- CIE 1976 (L*10a*10b*10)  -  none
+- CIE 1964 (U*V*W*)  -  CIE 1960 (uvW*), CIE 1960 UCS Diagram (u = u', v = 2/3v', W* = L*)
+- CIE 2002 (CIECAM02)  -  CIE 2002 (J'a'b') CIECAM02 UCS Diagram
 
 **************************************
 
