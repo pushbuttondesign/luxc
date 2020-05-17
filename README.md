@@ -8,11 +8,13 @@
 - fill the SPD_data structure with a list of spectral data values and corrosponding wavelength values
 - pass a pointer to the structure to the various operations you want to perform on the data
 - most operations pass back a pointer to same data structure, with additinal fields filled in
+- example file is provided to test each function and provide indication about how each is used
 
 ### TODO
-- Validate all the functions, implement ceedling unit testing
+- Validate all the functions properly, implement ceedling unit testing
 - Optimise calculation speed, current CCT trial and error calculation in colourtemp() is very slow and duplicated, swap to alternative equation, several exist
 - Stop usage of global structures and pass each variable individually to each function, this will avoid duplicate calculations or needing to add 'bit set' flags & checks
+- The blackbody() function allocates memory it does not free. Move the malloc outside the function and pass in a pointer to keep both in the same place
 
 *********************************************
 
