@@ -1,15 +1,15 @@
-#luxC
+# luxC
 
 A C toolbox for lighting and colour science
 Many of these functions are validated against the equilavent python functions in: https://github.com/pushbuttondesign/luxpy
 
-##Usage:
+## Usage:
 - include .h in your file and add the .c at compile time
 - fill the SPD_data structure with a list of spectral data values and corrosponding wavelength values
 - pass a pointer to the structure to the various operations you want to perform on the data
 - most operations pass back a pointer to same data structure, with additinal fields filled in
 
-##TODO
+## TODO
 - Validate all the functions, implement ceedling unit testing
 - Optimise calculation speed, current CCT trial and error calculation in colourtemp() is very slow and duplicated, swap to alternative equation, several exist
 - Stop usage of global structures and pass each variable individually to each function, this will avoid duplicate calculations or needing to add 'bit set' flags & checks
@@ -29,7 +29,7 @@ Many of these functions are validated against the equilavent python functions in
 
 **************************************
 
-##The following functions are included:
+## The following functions are included:
 
 - blackbody - Computes radiance for every wavelength of blackbody of given temprature between given wavelength range
 
@@ -67,7 +67,7 @@ Many of these functions are validated against the equilavent python functions in
 
 ***********************************************************
 
-##These caculations were pulled from a number of refferences:
+## These caculations were pulled from a number of refferences:
 
 - The CIE standards - [http://cie.co.at/publications/international-standards]
 
@@ -95,7 +95,7 @@ Many of these functions are validated against the equilavent python functions in
 
 ***************************
 
-##Units used in this program:
+## Units used in this program:
 
 - wavelengths                           //range [nm]
 - spectral_radiance                     //range [W·sr−1·m−2·nm-1]
