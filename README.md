@@ -16,8 +16,8 @@ Many of these functions are validated against the equilavent python functions in
 
 *********************************************
 
-##Colour space termonology used in this program
-###Tristumulus values         ###Associated chromaticity coordinates
+## Colour space termonology used in this program
+#### Tristumulus values         #### Associated chromaticity coordinates
 - CIE 1931 (XYZ)              CIE 1931 (xyY)
 - CIE 1964 (X10Y10Z10)        CIE 1931 (x10y10Y10)
 - CIE 1976 (L*u*v*)           CIE 1976 (u’v’L*) CIE 1976 UCS Diagram
@@ -75,7 +75,7 @@ Many of these functions are validated against the equilavent python functions in
 
 - A toolbox for caculating melanopic_luminance - [http://lucasgroup.lab.manchester.ac.uk/measuringmelanopicilluminance/]
 
-##Where I needed additional detail I turned to the following detailed books:
+#### Where I needed additional detail I turned to the following detailed books:
 
 - Colour calculations with the CIE system - [https://www.amazon.co.uk/Color-Science-Concepts-Quantitative-Formulae/dp/0471399183]
 
@@ -85,7 +85,7 @@ Many of these functions are validated against the equilavent python functions in
 
 - Zumtobel lighting handbook - [https://www.zumtobel.com/PDB/teaser/EN/lichthandbuch.pdf]
 
-##Other refferences providing useful background to many of these caculations and their application to circadian or human centric lighting:
+#### Other refferences providing useful background to many of these caculations and their application to circadian or human centric lighting:
 
 - Effects of light on human circadian rhythms, our understanding & its limits summerised in a roadmap produced by the CIE in 2016 - [http://www.cie.co.at/publications/research-roadmap-healthful-interior-lighting-applications]
 
