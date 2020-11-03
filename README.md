@@ -77,9 +77,15 @@
 
 - A toolbox for caculating melanopic_luminance - [http://lucasgroup.lab.manchester.ac.uk/measuringmelanopicilluminance/]
 
+- Color Science - [https://www.amazon.ca/Color-Science-Concepts-Quantitative-Formulae/dp/0471399183]
+
 #### Where I needed additional detail I turned to the following detailed books:
 
-- Colour calculations with the CIE system - [https://www.amazon.co.uk/Color-Science-Concepts-Quantitative-Formulae/dp/0471399183]
+- Color calculations with the CIE system - [https://www.amazon.co.uk/Color-Science-Concepts-Quantitative-Formulae/dp/0471399183]
+
+- Measuring color - [https://www.amazon.ca/Measuring-Colour-R-W-Hunt/dp/1119975379/ref=pd]
+
+- Color apperance models - [https://www.amazon.ca/Color-Appearance-Models-Mark-Fairchild/dp/1119967031/ref=pd_bxgy]
 
 - The SLL lighting handbook - [https://www.cibse.org/knowledge/knowledge-items/detail?id=a0q20000008I6xeAAC]
 
